@@ -3,6 +3,7 @@ Szak:
 Neptun azonosító:
 
 
+
 1. Mi az objektumorientált programozás alapegysége?
 a) Függvény
 b) Objektum
