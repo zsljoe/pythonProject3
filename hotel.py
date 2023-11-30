@@ -1,21 +1,20 @@
 from abc import ABC, abstractmethod
 
-
 class Szoba(ABC):
-
     def __init__(self, szobaszam, ar):
         self.szobaszam = szobaszam
         self.ar = ar
 
 
 class EgyagyasSzoba(Szoba):
-    pass
-
+    def __init__(self,szobaszam, ar):
+        szobaszam = 101
+        ar = 30000
 
 class KetagyasSzoba(Szoba):
-    pass
-
-
+    def __init__(self,szobaszam, ar):
+        szobaszam = 102
+        ar = 40000
 class Szalloda:
 
     def __init__(self, name: str):
@@ -23,9 +22,10 @@ class Szalloda:
 
 
 class Foglalas:
-    pass
+    def __str__(self):
+        foglalasok_str = self.foglalas_datumok()
 
 Szalloda = Szalloda("Toparti")
-Egyagyas = EgyagyasSzoba(101,30000)
-Ketagyas = KetagyasSzoba(102,40000)
+
+
 
