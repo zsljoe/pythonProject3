@@ -21,15 +21,11 @@ class Szalloda:
     def __init__(self, name: str):
         self.name = name
 
-    def __str__(self):
-        return f"A szálloda neve {self.name}"
 
+class Foglalas:
+    pass
 
-Elso_szalloda = Szalloda("Toparti")
-
-print(Elso_szalloda)
-
-
-
-
+Szalloda = Szalloda("Toparti")
+Egyagyas = EgyagyasSzoba(101,30000)
+Ketagyas = KetagyasSzoba(102,40000)
 
