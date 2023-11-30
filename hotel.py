@@ -28,6 +28,7 @@ class Szalloda:
     def szoba_hozzaadas(self, szoba: Szoba):
         self.szobak.append(szoba)
 
+
     def szobakletrehozasa(self):
         self.szoba_hozzaadas(EgyagyasSzoba)
         self.szoba_hozzaadas(KetagyasSzoba)

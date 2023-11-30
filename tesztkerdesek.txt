@@ -3,7 +3,6 @@ Szak: Mérnökinformatikus
 Neptun azonosító: AHFPOP
 
 
-
 1. Mi az objektumorientált programozás alapegysége?
 a) Függvény
 b) Objektum
